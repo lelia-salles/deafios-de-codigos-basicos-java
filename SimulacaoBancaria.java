@@ -6,7 +6,7 @@ public class SimulacaoBancaria {
         double saldo = 0;
         boolean continuar = true;
 
-        System.out.println("Bem-vindo(a) à Simulação Bancária!");
+        
 
         while (continuar) {
           
