@@ -19,13 +19,13 @@ public class SimulacaoBancaria {
 
             switch (opcao) {
                 case 1:
-                    System.out.print("Digite o valor a ser depositado: ");
+                    System.out.println("Digite o valor a ser depositado: ");
                     double valorDeposito = scanner.nextDouble();
                     saldo += valorDeposito; // Atualiza o saldo
                     System.out.println("Depósito realizado. Saldo atual: " + saldo);
                     break;
                 case 2:
-                    System.out.print("Digite o valor a ser sacado: ");
+                    System.out.println("Digite o valor a ser sacado: ");
                     double valorSaque = scanner.nextDouble();
                     if (valorSaque <= saldo) {
                         saldo -= valorSaque; // Atualiza o saldo
