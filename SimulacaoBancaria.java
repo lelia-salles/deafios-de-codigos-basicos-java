@@ -9,11 +9,8 @@ public class SimulacaoBancaria {
         System.out.println("Bem-vindo(a) à Simulação Bancária!");
 
         while (continuar) {
-            System.out.println("\nOpções:");
-            System.out.println("1 - Depositar");
-            System.out.println("2 - Sacar");
-            System.out.println("3 - Consultar saldo");
-            System.out.println("0 - Encerrar o programa");
+          
+          System.out.print("Escolha uma opção (1, 2, 3 ou 0): ");
 
             int opcao = scanner.nextInt();
 
