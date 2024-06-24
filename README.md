@@ -1,6 +1,6 @@
 # Exercícios Básicos de Código JAVA - Desenvolvendo Java com IA - Digital Inovation One
 
-## Operações Bancárias Básicas
+## Desafio 1 - Operações Bancárias Básicas
 
 ### Descrição 
 Desenvolva um programa simples em Java para simular operações bancárias básicas. A aplicação deve permitir ao usuário realizar depósitos, saques e consultar o saldo em uma conta bancária virtual.
