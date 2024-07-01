@@ -11,6 +11,33 @@ Desenvolva um programa que recebe dois valores inteiros. Faça a leitura e em se
 
 Leia dois valores inteiros identificados como variáveis A e B. Calcule a soma entre elas e chame essa variável de SOMA. A seguir escreva o valor desta variável. O arquivo de entrada contém 2 valores inteiros. Imprima a variável SOMA com todas as letras maiúsculas, inserindo um espaço em branco antes e depois do símbolo de igualdade, seguido pelo valor correspondente à soma de A e B.
 
+## Pedra Papel Tesoura
+
+Uma partida, com dois jogadores, possuem as seguintes regras para se definir um vencedor:
+
+- Ataque Aéreo vs. Pedra: Neste caso, o jogador com o Ataque Aéreo derrota o jogador com a Pedra, por razões óbvias.
+- Pedra vs. Papel: Neste caso, o jogador com a Pedra derrota o com Papel, porque a Pedra machuca muito mais.
+- Papel vs. Ataque Aéreo: Aqui o Ataque Aéreo ganha, porque Ataque Aéreo sempre ganha e o Papel é patético.
+- Papel vs. Papel: Nesta variação, ambos os jogadores ganham, porque o Papel é inútil e ninguém que enfrenta o Papel pode perder.
+- Pedra vs. Pedra: Para este caso não há ganhador, porque depende do que os jogadores decidem fazer com a Pedra e normalmente não fazem nada.
+- Ataque Aéreo vs. Ataque Aéreo: Quando isto acontece, todos os jogadores perdem, devido a Aniquilação Mútua.
+- Agora desenvolva um programa que, dada as escolhas de dois jogadores, informe quem venceu o jogo.
+
+A entrada consiste de N (1 ≤ N ≤ 1000) casos de teste. N deve ser lido na primeira linha da entrada. Cada caso de teste é composto por duas linhas, cada uma contendo uma string. A primeira string representa o sinal escolhido pelo jogador 1 e a segunda string representa o sinal escolhido pelo jogador 2. Essas strings podem ser:
+
+- “ataque”: para representar o Ataque Aéreo
+- “pedra”: para representar a Pedra
+- “papel”: para representar o Papel
+
+A saída deve conter o seguinte:
+
+- “Jogador 1 venceu”: se o Jogador Um tiver vencido a partida
+- “Jogador 2 venceu”: se o Jogador Dois tiver vencido a partida
+- “Ambos venceram”: se os dois jogadores tiverem vencido a partida
+- “Sem ganhador”: se não houver ganhador
+- “Aniquilacao mutua”: se ocorrer Aniquilação Mútua
+Cada saída de um caso de teste deve estar em uma linha.
+
 ## Operações Bancárias Básicas
 
 Desenvolva um programa simples em Java para simular operações bancárias básicas. A aplicação deve permitir ao usuário realizar depósitos, saques e consultar o saldo em uma conta bancária virtual.
