@@ -1,4 +1,6 @@
-# Exercícios Básicos de Código JAVA - Desenvolvendo Java com IA - Digital Inovation One
+# Exercícios Básicos de Código JAVA 
+  - Desenvolvendo Java com IA - Digital Inovation One
+  - Formação Java Developer - Digital Inovation One
 
 ## Desafio 1 - Operações Bancárias Básicas
 
