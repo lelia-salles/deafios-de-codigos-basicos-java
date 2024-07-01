@@ -38,6 +38,17 @@ A saída deve conter o seguinte:
 - “Aniquilacao mutua”: se ocorrer Aniquilação Mútua
 Cada saída de um caso de teste deve estar em uma linha.
 
+## Lendo Pulando Nomes
+
+Faça um programa com as características abaixo:
+
+- Leia 10 nomes, sem espaço em branco;
+- Imprima o terceiro nome da lista;
+- Imprima o sétimo nome da lista;
+- Imprima o nono nome da lista.
+
+A entrada consiste vários arquivos de teste, cada um com dez linhas e em cada linha tem um nome de no até 30 caracteres e sem espaço em branco. Conforme mostrado no exemplo de entrada a seguir. Para cada arquivo da entrada, terá um arquivo de saída. E como mencionado no Desafio, gere três linhas conforme os procedimentos 2, 3 e 4. Use o exemplo abaixo para clarear o que está sendo pedido.
+
 ## Operações Bancárias Básicas
 
 Desenvolva um programa simples em Java para simular operações bancárias básicas. A aplicação deve permitir ao usuário realizar depósitos, saques e consultar o saldo em uma conta bancária virtual.
