@@ -82,3 +82,7 @@ Desenvolva um programa simples em Java para verificar se um cliente é elegiíve
 
 DEsenvolva um programa simples em Java para verificar se uma conta bancária ultrapassou o limite do cheque especial. A aplicação solicitará ao cliente que informe o saldo atual da conta bancária. Em seguida, o programa pedirá o valor de um saque que o cliente deseja realizar. O limite do cheque especial será definido como 500 unidades monetárias. ada
 O programa solicitará ao usuário que informe o saldo atual da conta bancária. Em seguida, o programa solicitará o valor de um saque que o cliente deseja realizar.
+
+## Controle de Saques
+
+Desenvolva um programa simples em Java para auxiliar um cliente a realizar saques de uma conta bancária. O cliente pode fazer saques até atingir um limite diário predefinido. O programa solicitará ao usuário que informe o limite diário de saque. Em seguida, o programa solicitará ao usuário que informe o valor do primeiro saque. Use um laço for, o programa iterará sobre os saques. Para cada saque, o programa verificará se o valor ultrapassa o limite diário. Se ultrapassar, o programa informará que o limite foi atingido e encerrará o loop. Se não ultrapassar, o programa informará que o saque foi realizado com sucesso.
