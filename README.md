@@ -73,3 +73,11 @@ Desenvolva um programa simples em Java para verificar se um número de conta ban
 
 - Se o número da conta tiver 8 dígitos, o programa informará que é um número válido.
 - Se o número da conta não tiver 8 dígitos, o programa lançará uma exceção (por exemplo, IllegalArgumentException e informará que o número da conta é inválido.
+
+## Verificação de Elegibilidade de Conta
+
+Desenvolva um programa simples em Java para verificar se um cliente é elegiível para crira uma conta bancária. A condição é que o cliente deve ter maior que 18 anos. O programa solicitará ao usuário que digite sua idade. O programa utilizará apena sum bloco ``if/else`` para verificar se a idade é igual ou maior que 18. Caso seja, deve informar que o cliente é elegivel, se não for, deve informar que o cliente não é elegivel.
+
+
+
+
