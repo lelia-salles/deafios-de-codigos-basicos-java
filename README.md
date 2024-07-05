@@ -77,3 +77,8 @@ Desenvolva um programa simples em Java para verificar se um número de conta ban
 ## Verificação de Elegibilidade de Conta
 
 Desenvolva um programa simples em Java para verificar se um cliente é elegiível para crira uma conta bancária. A condição é que o cliente deve ter maior que 18 anos. O programa solicitará ao usuário que digite sua idade. O programa utilizará apena sum bloco ``if/else`` para verificar se a idade é igual ou maior que 18. Caso seja, deve informar que o cliente é elegivel, se não for, deve informar que o cliente não é elegivel.
+
+## Verificação Cheque Especial
+
+DEsenvolva um programa simples em Java para verificar se uma conta bancária ultrapassou o limite do cheque especial. A aplicação solicitará ao cliente que informe o saldo atual da conta bancária. Em seguida, o programa pedirá o valor de um saque que o cliente deseja realizar. O limite do cheque especial será definido como 500 unidades monetárias. ada
+O programa solicitará ao usuário que informe o saldo atual da conta bancária. Em seguida, o programa solicitará o valor de um saque que o cliente deseja realizar.
