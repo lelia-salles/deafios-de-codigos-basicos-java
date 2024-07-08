@@ -24,7 +24,7 @@ public class ControleSimplesDeSaques {
                 
                 //Atualizar o limite diário e imprimir a saída no formato dos exemplos.
                 saldo -=valorSaque;
-                System.out.printf("Saque realizado com sucesso. Saldo atual: %.2f\n", saldo);
+                System.out.printf("Saque realizado. Saldo atual: %.1f\n", saldo);
             }
         }
 
