@@ -1,17 +1,22 @@
 import java.util.Scanner;
 
-public class ControleSimplesDeSaques {
+public class ControleSaques {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        // Solicitar o limite diário de saque ao usuário
+        System.out.print("Digite o limite diário de saque: ");
+        double limiteDiario = scanner.nextDouble();
 
-                double limiteDiario = scanner.nextDouble();
-                double saldo = 0;
+        // Inicializar o saldo com 0
+        double saldo = 0;
 
         // Loop for para iterar sobre os saques
         for (int i = 1; ; i++) {
 
+            // Solicitar o valor do saque ao usuário
+           
             double valorSaque = scanner.nextDouble();
 
             if (valorSaque == 0) {
@@ -20,11 +25,10 @@ public class ControleSimplesDeSaques {
             } else if (valorSaque > limiteDiario) {
                 System.out.println("Limite diario de saque atingido. Transacoes encerradas.");
                 break; // Encerra o loop
-            } else  {
-                
-                //Atualizar o limite diário e imprimir a saída no formato dos exemplos.
-                saldo -=valorSaque;
-                System.out.printf("Saque realizado. Saldo atual: %.1f\n", saldo);
+            } else {
+                // Atualizar o saldo e imprimir a saída no formato dos exemplos.
+                saldo = limiteDiario - valorSaque;
+                System.out.printf("Saque realizado. Limite restante: %.1f\n", saldo);
             }
         }
 
