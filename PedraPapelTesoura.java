@@ -17,5 +17,6 @@ public class PedraPapelTesoura {
     		else if (jogador1.equalsIgnoreCase("papel")) System.out.println(   "Jogador 2 venceu"               );
     		else System.out.println(       "Sem ganhador"                      );
     	}
+		close(leitor);
     }
 }
