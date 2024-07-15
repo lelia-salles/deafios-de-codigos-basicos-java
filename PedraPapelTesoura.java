@@ -1,11 +1,11 @@
 // Abaixo segue um exemplo de código que você pode ou não utilizar
 import java.util.*; 
-public class Problem {
+public class PedraPapelTesoura {
     public static void main(String[] args) {
       	Scanner leitor = new Scanner(System.in);
     	int N = leitor.nextInt();
     	String jogador1, jogador2;
-// TODO: complete os espaços em branco com sua solução para o problema
+//  complete os espaços em branco com sua solução para o problema
     	for (int i = 0; i < N; i++) {
     		jogador1 = leitor.next();
     		jogador2 = leitor.next();
