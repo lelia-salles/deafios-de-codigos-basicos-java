@@ -16,6 +16,7 @@ for (int i = 0; i <  C  ; i++) {
     if (nome.equals("Thor")) System.out.println('Y');
     else System.out.println( 'N');
 		}
+        close(leitor);
     }
 	
 }
