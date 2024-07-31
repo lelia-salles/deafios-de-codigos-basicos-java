@@ -98,3 +98,7 @@ O programa solicitará ao usuário que informe o saldo atual da conta bancária.
 ## Controle de Saques
 
 Desenvolva um programa simples em Java para auxiliar um cliente a realizar saques de uma conta bancária. O cliente pode fazer saques até atingir um limite diário predefinido. O programa solicitará ao usuário que informe o limite diário de saque. Em seguida, o programa solicitará ao usuário que informe o valor do primeiro saque. Use um laço for, o programa iterará sobre os saques. Para cada saque, o programa verificará se o valor ultrapassa o limite diário. Se ultrapassar, o programa informará que o limite foi atingido e encerrará o loop. Se não ultrapassar, o programa informará que o saque foi realizado com sucesso.
+
+## Controle de Fluxo
+
+O projeto é um pequeno sistema que deve receber dois números do usuário, sendo que a regra é que o primeiro número digitado seja menor do que o segundo número. O sistema deve verificar a regra e, caso o usuário digite o primeiro número maior do que o segundo o sistema deve imprimir uma mensagem ao usuário informando ao usuário obre a regra. Caso o usuário digite os dois números de acordo com a regra, o sistema irá imprimir os dois números digitados pelo usuário.
